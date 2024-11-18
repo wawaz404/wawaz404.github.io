@@ -92,10 +92,10 @@ document.getElementById("bq").onclick = function() {
   if(jawaban && jawaban.length < 19){
     window.jawaban = jawaban;
     pesanwhatsapp = jawaban;
-    await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success');
+    await swals.fire('OK!', 'Kirim jawabannya ke ig aku, ya!', 'success');
     window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;
     tombol();
   } else {
-    await swals.fire('Ups!', 'Jawaban tidak boleh kosong atau lebih dari 18 karakter, ya!');jawab();
+    await swals.fire('Ups!', 'di isi anjing');jawab();
   }
 }
